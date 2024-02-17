@@ -67,7 +67,7 @@ If using a higher version, the version of Tensorflow we use may not be available
 #### Installing Requirements
 Currently, we use pip and recommend creating a virtual environment.
 
-For convenience here's a command for it:
+For convenience here's a command for it. Do this in the vault-ai root dir.:
 ```bash
 python -m venv .venv
 source .venv/bin/activate
@@ -79,8 +79,8 @@ _For Windows activate via:_
 
 Install the required python dependencies:
 ```bash
-pip install -r danswer/backend/requirements/default.txt
-pip install -r danswer/backend/requirements/dev.txt
+pip install -r ./backend/requirements/default.txt
+pip install -r ./backend/requirements/dev.txt
 ```
 
 Install [Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for the frontend.
